@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Live Demo @[Abhishek Thakur Portfolio](http://abhishekthakur.devity.in)
+# Live Demo @[Abhishek Thakur](http://abhishekthakur.devity.in)
 
 ## Available Scripts
 
