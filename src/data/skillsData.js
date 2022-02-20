@@ -6,7 +6,6 @@ export const skillsData = [
     'React',
     'Django',
     'Docker',
-    'Figma',
     'Adobe XD',
     'Sketch',
     'C',
@@ -21,7 +20,6 @@ export const skillsData = [
     'Flutter',
     'Dart',
     'Git',
-    'Ubuntu',
     'MongoDB',
     'MySQL',
     'PostgreSQL',
@@ -29,7 +27,6 @@ export const skillsData = [
     'Firebase',
     'Graphql',
     'MaterialUI',
-    'Tensorflow',
     'Wordpress'
 ]
 

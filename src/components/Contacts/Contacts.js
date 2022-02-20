@@ -134,13 +134,17 @@ function Contacts() {
 
         if (name && email && message) {
             if (isEmail(email)) {
-                const responseData = {
-                    name: name,
-                    email: email,
-                    message: message,
-                };
 
-                axios.post(contactsData.sheetAPI, responseData).then((res) => {
+                axios.post(contactsData.sheetAPI, {
+                    "majorDimension": "ROWS",
+                    "values": [
+                        [
+                            name,
+                            email,
+                            message
+                        ]
+                    ]
+                }, { headers: { "Authorization": `Bearer ${contactsData.sheetAPIToken}` }, }).then((res) => {
                     console.log('success');
                     setSuccess(true);
                     setErrMsg('');
