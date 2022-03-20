@@ -8,7 +8,7 @@ export const experienceData = [
     }, {
         id: 1,
         company: 'Devity Pvt. Ltd.',
-        jobtitle: 'Co-Founder & CTO',
+        jobtitle: 'Co-Founder',
         startYear: '2019 ',
         endYear: 'Present'
     },
